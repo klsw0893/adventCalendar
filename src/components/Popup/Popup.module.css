@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+  }
+  .banner-img {
+    max-height: 200px;
+  }
+
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain; /* vagy cover, ha vágni is lehet */
+}
+
