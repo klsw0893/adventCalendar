@@ -1,23 +1,52 @@
-.header {
-  width: 100%;
-  text-align: center;
-  padding: 2rem;
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* A kilépő gomb az overlay jobb felső sarkában */
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+/* Fix méretű popup */
+.popup {
+  background: white;
+  width: 90%;
+  height: 60%;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  position: relative;
+  justify-content: center;
+}
+
+.content {
+  overflow-y: auto;
 }
 
 @media (max-width: 768px) {
-  .header {
+  .popup {
+    width: 90%;
+    font-size: 0.9rem;
     padding: 1rem;
   }
-  .banner-img {
-    max-height: 200px;
+
+  .overlay {
+    padding: 0.5rem;
   }
-
 }
-
-.banner-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain; /* vagy cover, ha vágni is lehet */
-}
-

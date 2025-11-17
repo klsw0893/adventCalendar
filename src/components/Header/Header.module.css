@@ -4,20 +4,21 @@
   padding: 2rem;
 }
 
+.banner-img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
 @media (max-width: 768px) {
   .header {
     padding: 1rem;
   }
   .banner-img {
-    max-height: 200px;
+    max-height: auto;
+    max-width: 768px;
+    width: 100%
   }
 
-}
-
-.banner-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain; /* vagy cover, ha vágni is lehet */
 }
 

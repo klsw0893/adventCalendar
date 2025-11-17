@@ -18,20 +18,30 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* fix 3 col*/
-  grid-template-rows: repeat(8, auto);   /* fix 8 raw */
   gap: 1rem;
   width: 100%;
   max-width: 1200px;
+  justify-content: center;
   margin: 0 auto;
   padding: 1rem;
-  box-sizing: border-box;
 }
 
 @media (min-width: 1024px) {
   .grid-container {
-    grid-template-columns: repeat(4, 1fr); /* 4 oszlop */
-    grid-template-rows: repeat(6, auto);   /* 6 sor */
+    grid-template-columns: repeat(4, 1fr); /* 4 col */
+    grid-template-rows: repeat(6, auto);   /* 6 row */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr); /* fix 3 col*/
+    grid-template-rows: repeat(8, auto);   /* fix 8 raw */
+    padding: 0.5rem;
+  }
+
+  .app-wrapper {
+    padding: 0.5rem;
   }
 }
 
