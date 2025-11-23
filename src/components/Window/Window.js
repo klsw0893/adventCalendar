@@ -1,10 +1,9 @@
 import styles from './Window.module.css';
-import { useState } from 'react';
 
 
-function Window({ imgSrc, clickable = true, onClick}) {
+function Window({ imgSrc, clickable = true, day, onClick}) {
   const now = new Date();
-  clickable = (now).toLocaleDateString() >= new Date(now.getFullYear(), 11, 1).toLocaleDateString();
+  clickable = (now).getTime() >= new Date(now.getFullYear(), 11, day).getTime();
 
   const onClickCallback = ()=>{
     if (clickable) {

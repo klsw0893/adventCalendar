@@ -20,7 +20,7 @@ function App() {
       <Header src={HeaderBanner} />
       <div className="grid-container">
         {Content.map((item) => (
-          <Window key={item.position} imgSrc={item.adventDay} timeLimit={`Elem ${item.position}`} onClick={() => handleWindowClick(item)}
+          <Window key={item.position} imgSrc={item.adventDay} day={item.day} onClick={() => handleWindowClick(item)}
  />
         ))}
       </div>
