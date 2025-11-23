@@ -3,6 +3,8 @@ import { useState } from 'react';
 
 
 function Window({ imgSrc, clickable = true, onClick}) {
+  const now = new Date();
+  clickable = (now).toLocaleDateString() >= new Date(now.getFullYear(), 11, 1).toLocaleDateString();
 
   const onClickCallback = ()=>{
     if (clickable) {
