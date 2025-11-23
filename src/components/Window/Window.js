@@ -3,7 +3,7 @@ import styles from './Window.module.css';
 
 function Window({ imgSrc, clickable = true, day, onClick}) {
   const now = new Date();
-  clickable = (now).getTime() >= new Date(now.getFullYear(), 11, day).getTime();
+  clickable = (now).getTime() >= new Date(2025, 11, day).getTime();
 
   const onClickCallback = ()=>{
     if (clickable) {
