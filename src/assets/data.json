@@ -4,7 +4,7 @@
     "day":"8",
 	"adventDay": "/8.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":"https://wordwall.net/hu/embed/0ef032089be14e778f2963c01bcf31d0?themeId=6&templateId=5&fontStackId=0"
   },
@@ -13,7 +13,7 @@
     "day":"1",
 	"adventDay": "/1.png",
     "contentText":"asdada",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -22,7 +22,7 @@
     "day":"15",
 	"adventDay": "/15.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -31,7 +31,7 @@
     "day":"7",
 	"adventDay": "/7.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -40,7 +40,7 @@
     "day":"16",
 	"adventDay": "/16.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -49,7 +49,7 @@
     "day":"9",
 	"adventDay": "/9.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -58,7 +58,7 @@
     "day":"11",
 	"adventDay": "/11.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -67,7 +67,7 @@
     "day":"17",
 	"adventDay": "/17.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -76,7 +76,7 @@
     "day":"3",
 	"adventDay": "/3.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -85,7 +85,7 @@
     "day":"10",
 	"adventDay": "/10.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -94,7 +94,7 @@
     "day":"18",
 	"adventDay": "/18.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -103,7 +103,7 @@
     "day":"4",
 	"adventDay": "/4.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -112,7 +112,7 @@
     "day":"2",
 	"adventDay": "/2.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -121,7 +121,7 @@
     "day":"19",
 	"adventDay": "/19.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -130,7 +130,7 @@
     "day":"21",
 	"adventDay": "/21.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -139,7 +139,7 @@
     "day":"5",
 	"adventDay": "/5.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -148,7 +148,7 @@
     "day":"14",
 	"adventDay": "/14.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -157,7 +157,7 @@
     "day":"6",
 	"adventDay": "/6.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -166,7 +166,7 @@
     "day":"23",
 	"adventDay": "/23.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -175,7 +175,7 @@
     "day":"12",
 	"adventDay": "/12.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -184,7 +184,7 @@
     "day":"13",
 	"adventDay": "/13.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -193,7 +193,7 @@
     "day":"20",
 	"adventDay": "/20.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -202,7 +202,7 @@
     "day":"24",
 	"adventDay": "/24.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   },
@@ -211,7 +211,7 @@
     "day":"22",
 	"adventDay": "/22.png",
     "contentText":"",
-    "embeddedVideo":"",
+    "video":{"netflixLink": "", "otherVidLink":""},
     "embeddedLink": "",
 	"embeddedQuiz":""
   }
