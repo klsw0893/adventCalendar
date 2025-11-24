@@ -18,6 +18,11 @@ function App() {
   return (
     <div className="app-wrapper">
       <Header src={HeaderBanner} />
+      <div>
+      <i>Ez az adventi kalendárium most nem édességeket rejt, hanem minden nap egy apró meglepetést:<br />
+      egy gondolatot, ami megállít; egy hangulatot, ami megmelenget; egy kis élményt, játékosságot ami kísér a napodon.<br />
+      Ahogy nyílnak az ablakok, úgy gyűlnek benned a pillanatok, amelyek lassan ünneppé szövik a decembert.</i>
+      </div>
       <div className="grid-container">
         {Content.map((item) => (
           <Window key={item.position} imgSrc={item.adventDay} day={item.day} onClick={() => handleWindowClick(item)}

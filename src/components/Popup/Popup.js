@@ -7,7 +7,7 @@ function Popup({content, onClose }) {
         <button className={styles.closeBtn} onClick={onClose}>X</button>
         <div className={styles.content}>Advent {content.day}. napja</div>
         {
-          content.contentText && (<i>asdasdasd</i>)
+          content.contentText && (<i className={styles.i}>{content.contentText}</i>)
         }
         {
           content.embeddedQuiz && (<iframe src={content.embeddedQuiz} width="100%" height="85%" frameborder="0" allowfullscreen></iframe>)

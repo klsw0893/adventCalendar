@@ -1,8 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  color: white;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+
+i{
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .app-wrapper {
