@@ -1,4 +1,5 @@
-i{
+.contentText{
+  overflow-y: auto;
   text-align: center;
 }
 
@@ -13,6 +14,18 @@ i{
   align-items: center;
   justify-content: center;
   z-index: 1000;
+}
+.videoPic{
+  height:11.685rem;
+  width:15rem;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.filmPic{
+  height:11.685rem;
+  width:15rem;
+  align-self: center;
 }
 
 /* A kilépő gomb az overlay jobb felső sarkában */

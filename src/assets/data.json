@@ -4,8 +4,8 @@
     "day":"8",
 	"adventDay": "/8.png",
     "contentText":"Teszteld a memóriád karácsonyi hangulatban!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":"https://wordwall.net/hu/embed/e97a3c3bcd3444078ab61fafca1c6136?themeId=6&templateId=25&fontStackId=0"
   },
   {
@@ -13,8 +13,8 @@
     "day":"1",
 	"adventDay": "/1.png",
     "contentText":"Kezdődjék a hangolódás! Mi mással, mint egy karácsonyi dallal!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.youtube.com/watch?v=0MF3mS6ywNU",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=0MF3mS6ywNU", "pic":"/meghallgatom.png"},
 	"embeddedQuiz":""
   },
   {
@@ -22,8 +22,8 @@
     "day":"15",
 	"adventDay": "/15.png",
     "contentText":"„A világ bármely részén élsz és bárki vagy, Szeretném, hogy légy ma este egy kicsit boldogabb, Kívánj igazi ünnepet, kívánj igazabb életet, Ahogyan én neked.” (Piramis zenekar)",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -31,8 +31,8 @@
     "day":"7",
 	"adventDay": "/7.png",
     "contentText":"Kísérd végig egy különleges fiú varázslatos történetét, aki a remény és a bátorság útját járja: A fiú, akit Karácsonynak hívnak.",
-    "video":{"netflixLink": "", "otherVidLink":"https://videa.hu/videok/film-animacio/a-fiu-akit-karacsonynak-hivnak-gyerek-fantasy-VQpLE9FdJk8ovF0d"},
-    "embeddedLink": "",
+    "video":{"netflixLink": ".", "otherVidLink":"https://videa.hu/videok/film-animacio/a-fiu-akit-karacsonynak-hivnak-gyerek-fantasy-VQpLE9FdJk8ovF0d", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -40,8 +40,8 @@
     "day":"16",
 	"adventDay": "/16.png",
     "contentText":"Hallgasd meg a Piramis zenekar Kívánj igazi ünnepet című dalát!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.youtube.com/watch?v=pxkxnu4N1p8&list=RDpxkxnu4N1p8&start_radio=1",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=pxkxnu4N1p8&list=RDpxkxnu4N1p8&start_radio=1", "pic":"/meghallgatom.png"}, 
 	"embeddedQuiz":""
   },
   {
@@ -49,26 +49,26 @@
     "day":"9",
 	"adventDay": "/9.png",
     "contentText":"Egyik ünnep sem a tízfogásos vacsorától vagy a fogkefével csillogóra suvickolt lakástól lesz az igazi. Hanem csakis az egymásra szánt időtől, figyelemtől, a közös élményektől! Lovász Andrea",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink":{"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
 	"position": "6",
-    "day":"11",
-	"adventDay": "/11.png",
-    "contentText":"Nézd meg hogyan elevenedik meg a Polar Express története a BYU Vocal Point és Rise Up Children’s Choir előadásában!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.youtube.com/watch?v=7eTG86rwJ30&list=RD7eTG86rwJ30&start_radio=1",
+    "day":"17",
+	"adventDay": "/17.png",
+    "contentText":"Egy igazi karácsonyi klasszikus. Nézd végig a Diótörő balett előadást!",
+     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink":{"link":"https://www.youtube.com/watch?v=bQIOH5s95DA&list=RDbQIOH5s95DA&start_radio=1", "pic":"/balett.png"},
 	"embeddedQuiz":""
   },
   {
 	"position": "7",
-    "day":"17",
-	"adventDay": "/17.png",
-    "contentText":"Egy igazi karácsonyi klasszikus. Nézd végig a Diótörő balett előadást!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.youtube.com/watch?v=bQIOH5s95DA&list=RDbQIOH5s95DA&start_radio=1",
+    "day":"11",
+	"adventDay": "/11.png",
+    "contentText":"Nézd meg hogyan elevenedik meg a Polar Express története a BYU Vocal Point és Rise Up Children’s Choir előadásában!",
+     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=7eTG86rwJ30&list=RD7eTG86rwJ30&start_radio=1", "pic":"/meghallgatom.png"},
 	"embeddedQuiz":""
   },
   {
@@ -76,8 +76,8 @@
     "day":"3",
 	"adventDay": "/3.png",
     "contentText":"„Talán ünnepet nem is vehetsz boltban, inkább benned legbelül van.” (A Grincs film)",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -85,8 +85,8 @@
     "day":"10",
 	"adventDay": "/10.png",
     "contentText":"Ha a rádión is csak karácsonyi dalokat hallgatnál:",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://christmasfm.hu/",
+     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"https://christmasfm.hu/", "pic":"/meghallgatom.png"},
 	"embeddedQuiz":""
   },
   {
@@ -94,8 +94,8 @@
     "day":"18",
 	"adventDay": "/18.png",
     "contentText":"",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -103,8 +103,8 @@
     "day":"4",
 	"adventDay": "/4.png",
     "contentText":"Karácsonyi képkirakó",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":"https://www.jigsawplanet.com/?rc=play&pid=398bd8669986"
   },
   {
@@ -112,17 +112,17 @@
     "day":"2",
 	"adventDay": "/2.png",
     "contentText":"Öltöztesd ünnepi díszbe a képernyőidet is!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
 	"position": "13",
-    "day":"19",
-	"adventDay": "/19.png",
-    "contentText":"„Együtt lesz minden nap ünnep.” (Nagykarácsony film)",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "day":"5",
+	"adventDay": "/5.png",
+    "contentText":"Lepd meg a Mikulást sós falatokkal – hiszen mindenki édessel várja! TODO", 
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -130,17 +130,17 @@
     "day":"21",
 	"adventDay": "/21.png",
     "contentText":"Karácsonyi kvíz! Hány kérdésre tudod a választ?",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":"https://wordwall.net/hu/embed/0ef032089be14e778f2963c01bcf31d0?themeId=6&templateId=5&fontStackId=0"
   },
   {
 	"position": "15",
-    "day":"5",
-	"adventDay": "/5.png",
-    "contentText":"Lepd meg a Mikulást sós falatokkal – hiszen mindenki édessel várja! TODO", 
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "day":"19",
+	"adventDay": "/19.png",
+    "contentText":"„Együtt lesz minden nap ünnep.” (Nagykarácsony film)",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -148,8 +148,8 @@
     "day":"14",
 	"adventDay": "/14.png",
     "contentText":"Az ünnepi készülődés meghitt pillanataihoz jól illik a Dickens-regénye alapján készült karácsonyi film, a Scrooge: Karácsonyi ének.",
-    "video":{"netflixLink": "", "otherVidLink":"https://videa.hu/videok/film-animacio/scrooge-karacsonyi-enek-2022-animacios-drama-kaland-5accDhQrbsRvKnh9"},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"https://videa.hu/videok/film-animacio/scrooge-karacsonyi-enek-2022-animacios-drama-kaland-5accDhQrbsRvKnh9", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -157,8 +157,8 @@
     "day":"6",
 	"adventDay": "/6.png",
     "contentText":"Megérkezett a Mikulás!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "/mikulas.gif",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink":{"link":"/mikulas.gif", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -166,8 +166,8 @@
     "day":"23",
 	"adventDay": "/23.png",
     "contentText":"Zengjen a szívedben a Bagossy Brothers Company karácsonyi dala:",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.youtube.com/watch?v=6Y4FPNR0TX8&list=RD6Y4FPNR0TX8&start_radio=1",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink":{"link": "https://www.youtube.com/watch?v=6Y4FPNR0TX8&list=RD6Y4FPNR0TX8&start_radio=1", "pic":"/meghallgatom.png"},
 	"embeddedQuiz":""
   },
   {
@@ -175,8 +175,8 @@
     "day":"12",
 	"adventDay": "/12.png",
     "contentText":"Készíts szívmelengető fűszeres gyümölcs italt!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   },
   {
@@ -184,8 +184,8 @@
     "day":"13",
 	"adventDay": "/13.png",
     "contentText":"Idézd fel a régi idők karácsonyát ezzel a klasszikus ünnepi válogatással!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.youtube.com/watch?v=roNwS-sv_p4&list=RDroNwS-sv_p4&start_radio=1",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=roNwS-sv_p4&list=RDroNwS-sv_p4&start_radio=1", "pic":"/meghallgatom.png"},
 	"embeddedQuiz":""
   },
   {
@@ -193,8 +193,8 @@
     "day":"20",
 	"adventDay": "/20.png",
     "contentText":"Hallgasd meg a Nagykarácsony film főcímdalát!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.youtube.com/watch?v=lj-RJIRtxbg&list=RDlj-RJIRtxbg&start_radio=1",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=lj-RJIRtxbg&list=RDlj-RJIRtxbg&start_radio=1", "pic":"/meghallgatom.png"},
 	"embeddedQuiz":""
   },
   {
@@ -202,8 +202,8 @@
     "day":"24",
 	"adventDay": "/24.png",
     "contentText":"🎄✨ Boldog, békés karácsonyt kívánunk! Legyen ez az ünnep tele szeretettel, meghitt pillanatokkal és közös nevetésekkel. Köszönjük, hogy részesei vagytok az életünknek – a család és a barátok közelsége a legszebb ajándék, amit kaphatunk. Az új év hozzon mindannyiunknak egészséget, örömöt és sok közös élményt!",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "https://www.freepik.com/free-video/child-opening-christmas-present-tree_6465604#fromView=search&page=1&position=46&uuid=d2ea0023-5a60-40df-ba3b-9b3cccd41092",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":".", "pic":"https://www.freepik.com/free-video/child-opening-christmas-present-tree_6465604#fromView=search&page=1&position=46&uuid=d2ea0023-5a60-40df-ba3b-9b3cccd41092"},
 	"embeddedQuiz":""
   },
   {
@@ -211,8 +211,8 @@
     "day":"22",
 	"adventDay": "/22.png",
     "contentText":"„Karácsony van és azt beszélik, hogy a csodák léteznek. És a csodáknak hagyj a szívedben még egy kis helyet.” (Bagossy Brothers Company",
-    "video":{"netflixLink": "", "otherVidLink":""},
-    "embeddedLink": "",
+    "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
+    "embeddedLink": {"link":"", "pic":""},
 	"embeddedQuiz":""
   }
 ]
