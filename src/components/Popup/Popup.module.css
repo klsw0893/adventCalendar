@@ -25,7 +25,7 @@
 .filmPic{
   height:11.685rem;
   width:15rem;
-  align-self: center;
+  text-align: center;
 }
 
 /* A kilépő gomb az overlay jobb felső sarkában */
@@ -42,7 +42,7 @@
 
 /* Fix méretű popup */
 .popup {
-  background:#1b5e5d;
+  background: #1b5e5d;
   color: white;
   width: 90%;
   height: 80%;
@@ -50,15 +50,27 @@
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
+
 
 .content {
   overflow-y: auto;
   text-align: center;
   font-family:serif;
   font-size: 3rem;
-  font-style: bold;
+  padding: 1rem;
+}
+.centered {
+  flex: 1;                   /* kitölti a szülő magasságát */
+  display: flex;
+  justify-content: center;   /* vízszintesen */
+  align-items: center;       /* vertikálisan */
+  text-align: center;
+  font-family: serif;
+  font-size: 3rem;
   padding: 1rem;
 }
 
@@ -66,7 +78,6 @@
   .popup {
     width: 90%;
     font-size: 0.9rem;
-    padding: 1rem;
   }
 
   .overlay {
@@ -79,6 +90,5 @@
   font-family:serif;
   font-size: 1.5rem;
   font-style: bold;
-  padding: 1rem;
 }
 }
