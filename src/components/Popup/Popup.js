@@ -36,7 +36,7 @@ function Popup({ content, onClose }) {
             {content.embeddedLink.link && (
               <div className={styles.contentText}>
                 <a href={content.embeddedLink.link} target="_blank" rel="noopener noreferrer">
-                  <img src={content.embeddedLink.pic} className={styles.videoPic} alt="Embedded link picture" />
+                  <img src={content.embeddedLink.pic} className={styles.musicPic} alt="Embedded link picture" />
                 </a>
               </div>
             )

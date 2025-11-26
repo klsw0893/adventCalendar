@@ -19,9 +19,9 @@ function App() {
     <div className="app-wrapper">
       <Header src={HeaderBanner} />
       <div>
-      <i>Ez az adventi kalendárium most nem édességeket rejt, hanem minden nap egy apró meglepetést:<br />
-      egy gondolatot, ami megállít; egy hangulatot, ami megmelenget; egy kis élményt, játékosságot ami kísér a napodon.<br />
-      Ahogy nyílnak az ablakok, úgy gyűlnek benned a pillanatok, amelyek lassan ünneppé szövik a decembert.</i>
+      <a>Ez az adventi kalendárium most nem édességeket rejt, hanem minden nap egy apró meglepetést:
+      egy gondolatot, ami megállít; egy hangulatot, ami megmelenget; egy kis élményt, játékosságot ami kísér a napodon.
+      Ahogy nyílnak az ablakok, úgy gyűlnek benned a pillanatok, amelyek lassan ünneppé szövik a decembert.</a>
       </div>
       <div className="grid-container">
         {Content.map((item) => (

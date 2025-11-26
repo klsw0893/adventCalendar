@@ -127,7 +127,7 @@
     "contentText":"",
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"", "pic":""},
+    "embeddedLink": {"link":"font-size:1rem;", "pic":"/meghallgatom.png"},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },

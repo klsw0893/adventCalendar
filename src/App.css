@@ -3,12 +3,18 @@ body {
   padding: 0;
   color: white;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Courier New';
 }
-
-i{
+a{
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 ;
+  line-height: 1.5;
 }
 
 .app-wrapper {
@@ -51,6 +57,9 @@ i{
 
 
 @media (max-width: 768px) {
+  a{
+    font-size: 1rem;
+  }
   .grid-container {
     grid-template-columns: repeat(3, 1fr); /* fix 3 col*/
     grid-template-rows: repeat(8, auto);   /* fix 8 raw */
