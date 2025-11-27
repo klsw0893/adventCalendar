@@ -31,7 +31,7 @@ function Popup({ content, onClose }) {
         {content.type === "quiz" && (
             <div className={styles.quiz}>
               {
-                content.embeddedQuiz && (<iframe src={content.embeddedQuiz} width="90%" height="240%" align="center" frameborder="0" allowfullscreen></iframe>)
+                content.embeddedQuiz && (<iframe src={content.embeddedQuiz} width="90%" height="230%" align="center" frameborder="0" allowfullscreen></iframe>)
               }
             </div>)}
             {content.embeddedLink.link && (
