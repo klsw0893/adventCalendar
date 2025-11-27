@@ -92,6 +92,7 @@ a{
 
 .quiz {
   text-align: center;
+  margin:0;
 }
 
 .centered {
@@ -155,4 +156,17 @@ a{
     max-height: 55vh;   /* popup magasságához igazítva */
     object-fit: contain;
   }
+
+  .videoPic {
+  max-width: 100%;
+  max-height: 12vh;   /* kisebb, hogy a film képhez képest fele legyen */
+  object-fit: contain;
+}
+
+.filmPic {
+  max-width: 100%;
+  max-height: 25vh;   /* kétszer akkora, mint a videoPic */
+  object-fit: contain;
+  margin: 0 auto;
+}
 }
