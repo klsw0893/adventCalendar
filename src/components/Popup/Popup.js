@@ -24,13 +24,14 @@ function Popup({ content, onClose }) {
     <div className={styles.overlay}>
       <div className={styles.popup}>
         <button className={styles.closeBtn} onClick={onClose}>X</button>
-        <div className={`${styles.content} ${content.type === "text" ? styles.centered : ''}`}>
-          {content.contentText}
+        <div className={`${styles.content} ${content.type === "text" ? styles.centered : ''}`}>   
+          <p>{content.contentText.content}</p>
+          {content.type==="text" && content.contentText.author!=="" && (<p>{content.contentText.author}</p>)}
         </div>
         {content.type === "quiz" && (
-            <div>
+            <div className={styles.quiz}>
               {
-                content.embeddedQuiz && (<iframe src={content.embeddedQuiz} width="90%" height="100%" frameborder="0" allowfullscreen></iframe>)
+                content.embeddedQuiz && (<iframe src={content.embeddedQuiz} width="90%" height="240%" align="center" frameborder="0" allowfullscreen></iframe>)
               }
             </div>)}
             {content.embeddedLink.link && (
@@ -75,7 +76,7 @@ function Popup({ content, onClose }) {
           }
           {content.type === "food" && (
             <div className={styles.foodPic}>
-              <img src={content.food} alt="food" />
+              <img src={content.food} className={styles.foodPic} alt="food" />
             </div>
             )
           }

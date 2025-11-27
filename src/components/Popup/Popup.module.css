@@ -1,3 +1,6 @@
+a{
+  display: contents;
+}
 .contentText {
   overflow-y: auto;
   text-align: center;
@@ -27,26 +30,24 @@
   display: block;
   margin: 0 auto;
 }
-.videoPic{
-  max-width: 100%;
-  max-height: 20vh;   /* popup magasságának része */
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-}
-.filmPic {
-  max-width: 100%;
-  max-height: 20vh;   /* popup magasságának része */
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
+.videoLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;   /* kisebb térköz a két logó között */
 }
 
-.videoLinks {
-  display: flex;              /* egymás mellé */
-  justify-content: center;    /* középre igazítva */
-  align-items: center;        /* függőlegesen középre */
-  gap: 1rem;                  /* térköz a két logó között */
+.videoPic {
+  max-width: 100%;
+  max-height: 14vh;   /* kisebb, hogy a film képhez képest fele legyen */
+  object-fit: contain;
+}
+
+.filmPic {
+  max-width: 100%;
+  max-height: 38vh;   /* kétszer akkora, mint a videoPic */
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 
@@ -83,12 +84,17 @@
   text-align: center;
   font-family: 'Courier New';
   font-size:1.5rem;
-  padding: 4rem;
+  padding: 3rem 0rem 1rem 0rem;
+}
+
+.quiz {
+  text-align: center;
 }
 
 .centered {
   flex: 1;                     /* kitölti a popup magasságát */
   display: flex;
+  flex-direction: column; 
   justify-content: center;     /* vízszintesen */
   align-items: center;         /* vertikálisan */
   text-align: center;
@@ -96,17 +102,23 @@
   font-size:1.5rem;
   padding: 1rem;
 }
+.centered p {
+  display: block;      /* mindkettő új sorban */
+  margin: 0.5rem 0;    /* kis térköz köztük */
+}
+
 
 /* Food típus */
 .foodPic {
   display: flex;
+  max-height: 70%;
   justify-content: center;
   align-items: center;
 }
 
 .foodPic img {
   max-width: 60%;
-  max-height: 60%;
+  max-height: 95%;
   object-fit: contain;    /* arányosan kicsinyítse */
   display: block;
   margin: 0 auto;
