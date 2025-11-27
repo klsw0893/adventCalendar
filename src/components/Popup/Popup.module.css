@@ -29,7 +29,7 @@ a{
 /* Videó és film képek */
 .musicPic{
   max-width: 100%;
-  max-height: 50vh;   /* popup magasságának része */
+  max-height: 35vh;   /* popup magasságának része */
   object-fit: contain;
   margin: 0 auto;
 }
