@@ -50,14 +50,14 @@ function Popup({ content, onClose }) {
             <div className={`${styles.contentText} ${styles.videoLinks}`}>
               {
                 content.video.netflixLink && (
-                  <a href={content.video.netflixLink} target="_blank" rel="noopener noreferrer">
+                  <a href={content.video.netflixLink} className = {styles.videoListsBox} target="_blank" rel="noopener noreferrer">
                     <img src={content.video.netflixPic} className={styles.videoPic} alt="Netflix logo" />
                   </a>
                 )
               }
               {
                 content.video.otherVidLink && (
-                  <a href={content.video.otherVidLink} target="_blank" rel="noopener noreferrer">
+                  <a href={content.video.otherVidLink} className = {styles.videoListsBox} target="_blank" rel="noopener noreferrer">
                     <img src={content.video.otherVidPic} className={styles.videoPic} alt="Videa logo" />
                   </a>
                 )
@@ -80,6 +80,18 @@ function Popup({ content, onClose }) {
             </div>
             )
           }
+          {content.type === "gif" && content.video.file && (
+  <div className={styles.videoWrapper}>
+    <video
+      src={content.embeddedLink.pic}
+      autoPlay
+      loop                      // ismétlés
+      className={styles.videoPlayer}
+    >
+      A böngésződ nem támogatja a videó lejátszást.
+    </video>
+  </div>
+)}
       </div>
     </div>
   );

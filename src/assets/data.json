@@ -211,7 +211,7 @@
     "contentText":{"content":"Megérkezett a Mikulás!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink":{"link":"/mikulas.gif", "pic":""},
+    "embeddedLink":{"link":"/mikulas.gif", "pic":"/mikulas_vers.png"},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },
@@ -235,7 +235,7 @@
     "contentText":{"content":"Készíts szívmelengető fűszeres gyümölcs italt!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "/ital.png",
-    "embeddedLink": {"link":"", "pic":""},
+    "embeddedLink": {"link":".", "pic":"/video.mp4"},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },
@@ -267,11 +267,11 @@
 	"position": "22",
     "day":"24",
 	"adventDay": "/24.png",
-    "type":"pic",
+    "type":"gif",
     "contentText":{"content":"🎄✨ Boldog, békés karácsonyt kívánunk! Legyen ez az ünnep tele szeretettel, meghitt pillanatokkal és közös nevetésekkel. Köszönjük, hogy részesei vagytok az életünknek – a család és a barátok közelsége a legszebb ajándék, amit kaphatunk. Az új év hozzon mindannyiunknak egészséget, örömöt és sok közös élményt!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":".", "pic":"https://www.freepik.com/free-video/child-opening-christmas-present-tree_6465604#fromView=search&page=1&position=46&uuid=d2ea0023-5a60-40df-ba3b-9b3cccd41092"},
+    "embeddedLink": {"link":".", "pic":"/karacsonyi_video.mp4"},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },
