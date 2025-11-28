@@ -231,14 +231,14 @@ a, .videoListsBox {
 
   .videoPic {
     max-width: 100%;
-    max-height: 15vh;   /* kisebb, hogy a film képhez képest fele legyen */
+    max-height: 25vh;
     object-fit: contain;
     overflow: hidden;
     margin: 0 auto;
   }
   .downloadPic {
   max-width: 100%;
-  max-height: 20vh;   /* kisebb, hogy a film képhez képest fele legyen */
+  max-height: 20vh;
   object-fit: contain;
   overflow: hidden;
   display: block;
