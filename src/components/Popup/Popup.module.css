@@ -12,6 +12,7 @@ a, .videoListsBox {
   display: flex;
   justify-content: center;
   align-items: center;
+  white-space: pre-line;
 }
 
 .author{
@@ -122,6 +123,7 @@ a, .videoListsBox {
   font-size:1.5rem;
   line-height: 1.4;
   padding: 3rem 0rem 1rem 0rem;
+  white-space: pre-line;
 }
 
 .quiz {
@@ -198,6 +200,7 @@ a, .videoListsBox {
     font-family: 'Courier New';
     font-size:1.1rem;
     line-height: 1.4;
+    white-space: pre-line;
   }
 
   .contentText {
@@ -209,6 +212,7 @@ a, .videoListsBox {
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: pre-line;
   }
 
   .author{
