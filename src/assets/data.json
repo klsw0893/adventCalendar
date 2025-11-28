@@ -64,7 +64,7 @@
     "day":"9",
 	"adventDay": "/9.png",
     "type":"text",
-    "contentText":{"content":"Egyik ünnep sem a tízfogásos vacsorától vagy a fogkefével csillogóra suvickolt lakástól lesz az igazi. Hanem csakis az egymásra szánt időtől, figyelemtől, a közös élményektől! L", "author":"(Lovász Andrea)"},
+    "contentText":{"content":"Egyik ünnep sem a tízfogásos vacsorától vagy a fogkefével csillogóra suvickolt lakástól lesz az igazi. Hanem csakis az egymásra szánt időtől, figyelemtől, a közös élményektől!", "author":"(Lovász Andrea)"},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
     "embeddedLink":{"link":"", "pic":""},
