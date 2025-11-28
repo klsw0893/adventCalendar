@@ -227,7 +227,7 @@ a, .videoListsBox {
 
   .videoPic {
     max-width: 100%;
-    max-height: 12vh;   /* kisebb, hogy a film képhez képest fele legyen */
+    max-height: 15vh;   /* kisebb, hogy a film képhez képest fele legyen */
     object-fit: contain;
     overflow: hidden;
     margin: 0 auto;
