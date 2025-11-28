@@ -62,6 +62,15 @@ a, .videoListsBox {
   margin: 0 auto;
 }
 
+.downloadPic {
+  max-width: 100%;
+  max-height: 40vh;   /* kisebb, hogy a film képhez képest fele legyen */
+  object-fit: contain;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+
 .filmPic {
   max-width: 100%;
   max-height: 36vh;   /* kétszer akkora, mint a videoPic */
@@ -223,6 +232,14 @@ a, .videoListsBox {
     overflow: hidden;
     margin: 0 auto;
   }
+  .downloadPic {
+  max-width: 100%;
+  max-height: 20vh;   /* kisebb, hogy a film képhez képest fele legyen */
+  object-fit: contain;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
 
   .filmPic img {
     max-width: 100%;

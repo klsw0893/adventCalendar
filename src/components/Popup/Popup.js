@@ -66,10 +66,10 @@ function Popup({ content, onClose }) {
         {content.type === "downloadable" && (
           <div className = {styles.videoLinks}>
             <span onClick={handleDesktopDownload} style={{ cursor: "pointer" }}>
-               <img src={content.download.deskPic} className={styles.videoPic} alt="food" />
+               <img src={content.download.deskPic} className={styles.downloadPic} alt="food" />
             </span>
             <span onClick={handleMobilDownload} style={{ cursor: "pointer" }}>
-               <img src={content.download.mobilPic} className={styles.videoPic} alt="food" />
+               <img src={content.download.mobilPic} className={styles.downloadPic} alt="food" />
             </span>
           </div>
         )
