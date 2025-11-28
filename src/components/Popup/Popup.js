@@ -64,12 +64,12 @@ function Popup({ content, onClose }) {
           }
         </div>
         {content.type === "downloadable" && (
-          <div>
+          <div className = {styles.videoLinks}>
             <span onClick={handleDesktopDownload} style={{ cursor: "pointer" }}>
-              📥 Desktop Letöltés
+               <img src={content.download.deskPic} className={styles.videoPic} alt="food" />
             </span>
             <span onClick={handleMobilDownload} style={{ cursor: "pointer" }}>
-              📥 Mobil Letöltés
+               <img src={content.download.mobilPic} className={styles.videoPic} alt="food" />
             </span>
           </div>
         )
