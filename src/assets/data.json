@@ -91,7 +91,7 @@
     "contentText":{"content":"Nézd meg hogyan elevenedik meg a Polar Express története a BYU Vocal Point és Rise Up Children’s Choir előadásában!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"https://www.youtube.com/watch?v=7eTG86rwJ30&list=RD7eTG86rwJ30&start_radio=1", "pic":"/meghallgatom.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=7eTG86rwJ30&list=RD7eTG86rwJ30&start_radio=1", "pic":"/Polar_express.png"},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },
@@ -124,10 +124,10 @@
     "day":"18",
 	"adventDay": "/18.png",
     "type":"music",
-    "contentText":{"content":"", "author":""},
+    "contentText":{"content":"Reszkessetek betörők a hidegben! Ti pedig melengessétek a szíveteket ezzel a nosztalgikus dallammal:", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"font-size:1rem;", "pic":"/meghallgatom.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=GkaXLh1eUZk&list=RDGkaXLh1eUZk&index=2", "pic":"/Meghallgatom2.png"},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },
@@ -141,7 +141,7 @@
     "food": "",
     "embeddedLink": {"link":"", "pic":""},
     "download":{"desktop":"", "mobil":""},
-	"embeddedQuiz":"https://www.jigsawplanet.com/?rc=play&pid=398bd8669986"
+	"embeddedQuiz":"//wordwall.net/hu/embed/81131abd71754174b20ff02307e8a5e0?themeId=6&templateId=38&fontStackId=0"
   },
   {
 	"position": "12",
@@ -207,11 +207,11 @@
 	"position": "17",
     "day":"6",
 	"adventDay": "/6.png",
-    "type":"pic",
-    "contentText":{"content":"Megérkezett a Mikulás!", "author":""},
+    "type":"special",
+    "contentText":{"content":"", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink":{"link":"/mikulas.gif", "pic":"/mikulas_vers.png"},
+    "embeddedLink":{"link":"", "pic":""},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },
@@ -247,7 +247,7 @@
     "contentText":{"content":"Idézd fel a régi idők karácsonyát ezzel a klasszikus ünnepi válogatással!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"https://www.youtube.com/watch?v=roNwS-sv_p4&list=RDroNwS-sv_p4&start_radio=1", "pic":"/meghallgatom.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=roNwS-sv_p4&list=RDroNwS-sv_p4&start_radio=1", "pic":"/Meghallgatom2.png"},
     "download":{"desktop":"", "mobil":""}, 
 	"embeddedQuiz":""
   },
@@ -259,7 +259,7 @@
     "contentText":{"content":"Hallgasd meg a Nagykarácsony film főcímdalát!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"https://www.youtube.com/watch?v=lj-RJIRtxbg&list=RDlj-RJIRtxbg&start_radio=1", "pic":"/meghallgatom.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=lj-RJIRtxbg&list=RDlj-RJIRtxbg&start_radio=1", "pic":"/Meghallgatom2.png"},
     "download":{"desktop":"", "mobil":""},
 	"embeddedQuiz":""
   },
@@ -267,8 +267,8 @@
 	"position": "22",
     "day":"24",
 	"adventDay": "/24.png",
-    "type":"gif",
-    "contentText":{"content":"🎄✨ Boldog, békés karácsonyt kívánunk! Legyen ez az ünnep tele szeretettel, meghitt pillanatokkal és közös nevetésekkel. Köszönjük, hogy részesei vagytok az életünknek – a család és a barátok közelsége a legszebb ajándék, amit kaphatunk. Az új év hozzon mindannyiunknak egészséget, örömöt és sok közös élményt!", "author":""},
+    "type":"special",
+    "contentText":{"content":"", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
     "embeddedLink": {"link":"", "pic":""},

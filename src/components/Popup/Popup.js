@@ -24,14 +24,14 @@ function Popup({ content, onClose }) {
     <div className={styles.overlay}>
       <div className={styles.popup}>
         <button className={styles.closeBtn} onClick={onClose}>X</button>
-        <div className={`${styles.content} ${content.type === "text" ? styles.centered : ''}`}>
+        {content.contentText.content && (<div className={`${styles.content} ${(content.type === "text") ? styles.centered : ''}`}>
           <p>{content.contentText.content}</p>
-          {content.type === "text" && content.contentText.author !== "" && (<p>{content.contentText.author}</p>)}
-        </div>
+          {content.type === "text" && content.contentText.author !== "" && (<p className={styles.author}>{content.contentText.author}</p>)}
+        </div>)}
         {content.type === "quiz" && (
           <div className={styles.quiz}>
             {
-              content.embeddedQuiz && (<iframe src={content.embeddedQuiz} width="90%" height="200%" align="center" frameborder="0" allowfullscreen></iframe>)
+              content.embeddedQuiz && (<iframe src={content.embeddedQuiz} className ={styles.quiz} frameborder="0" allowfullscreen></iframe>)
             }
           </div>)}
         {content.embeddedLink.link && (
@@ -42,11 +42,6 @@ function Popup({ content, onClose }) {
           </div>
         )
         }
-        {content.type === "movie" && (content.video.netflixLink || content.video.otherVidLink) && (
-          <div className={styles.filmPic}>
-            <img src={Film} className={styles.filmPic} alt="Film picture" />
-          </div>
-        )}
         <div className={`${styles.contentText} ${styles.videoLinks}`}>
           {
             content.video.netflixLink && (
@@ -55,6 +50,11 @@ function Popup({ content, onClose }) {
               </a>
             )
           }
+          {content.type === "movie" && (content.video.netflixLink || content.video.otherVidLink) && (
+          <div className={styles.filmPic}>
+            <img src={Film} className={styles.filmPic} alt="Film picture" />
+          </div>
+        )}
           {
             content.video.otherVidLink && (
               <a href={content.video.otherVidLink} className={styles.videoListsBox} target="_blank" rel="noopener noreferrer">
@@ -64,14 +64,14 @@ function Popup({ content, onClose }) {
           }
         </div>
         {content.type === "downloadable" && (
-          <>
-            <div onClick={handleDesktopDownload} style={{ cursor: "pointer" }}>
+          <div>
+            <span onClick={handleDesktopDownload} style={{ cursor: "pointer" }}>
               📥 Desktop Letöltés
-            </div>
-            <div onClick={handleMobilDownload} style={{ cursor: "pointer" }}>
+            </span>
+            <span onClick={handleMobilDownload} style={{ cursor: "pointer" }}>
               📥 Mobil Letöltés
-            </div>
-          </>
+            </span>
+          </div>
         )
         }
         {content.type === "food" && (
@@ -92,6 +92,8 @@ function Popup({ content, onClose }) {
             </video>
           </div>
         )}
+        {content.type==="special" && content.day ==="6" && <div className={styles.santaImage}></div>}
+        {content.type==="special" && content.day ==="24" && <div className={styles.xmasImage}></div>}
       </div>
     </div>
   );
