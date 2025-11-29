@@ -80,18 +80,6 @@ function Popup({ content, onClose }) {
           </div>
         )
         }
-        {content.type === "gif" && content.video.file && (
-          <div className={styles.videoWrapper}>
-            <video
-              src={process.env.PUBLIC_URL + content.embeddedLink.pic}
-              autoPlay
-              loop                      // ismétlés
-              className={styles.videoPlayer}
-            >
-              A böngésződ nem támogatja a videó lejátszást.
-            </video>
-          </div>
-        )}
         {content.type==="special" && content.day ==="6" && <div className={styles.santaImage}></div>}
         {content.type==="special" && content.day ==="24" && <div className={styles.xmasImage}></div>}
       </div>
