@@ -230,9 +230,17 @@ a, .videoListsBox {
     overflow: hidden;
   }
 
+  .videoLinks {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 0.5rem;   /* kisebb térköz a két logó között */
+}
+
   .videoPic {
     max-width: 100%;
-    max-height: 25vh;
+    max-height: 20vh;
     object-fit: contain;
     overflow: hidden;
     margin: 0 auto;
@@ -248,7 +256,7 @@ a, .videoListsBox {
 
   .filmPic img {
     max-width: 100%;
-    max-height: 25vh;   /* kétszer akkora, mint a videoPic */
+    max-height: 20vh;   /* kétszer akkora, mint a videoPic */
     object-fit: contain;
     margin: 0 auto;
     overflow: hidden;
