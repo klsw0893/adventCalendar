@@ -67,7 +67,7 @@ function Popup({ content, onClose }) {
           }
         </div>
         {content.type === "downloadable" && (
-          <div className = {styles.videoLinks}>
+          <div className = {styles.downloadContainer}>
             <span onClick={handleDesktopDownload} style={{ cursor: "pointer" }}>
                <img src={process.env.PUBLIC_URL + content.download.deskPic} className={styles.downloadPic} alt="food" />
             </span>

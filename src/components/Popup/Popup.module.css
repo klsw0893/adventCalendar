@@ -46,6 +46,7 @@ a, .videoListsBox {
   display: block;
 }
 
+.downloadContainer,
 .videoLinks {
   display: flex;
   justify-content: center;
@@ -238,6 +239,11 @@ a, .videoListsBox {
   gap: 0.5rem;   /* kisebb térköz a két logó között */
 }
 
+  .downloadContainer {
+  display: grid;
+  overflow: hidden;
+  }
+
   .videoPic {
     max-width: 100%;
     max-height: 20vh;
@@ -247,7 +253,7 @@ a, .videoListsBox {
   }
   .downloadPic {
   max-width: 100%;
-  max-height: 40vh;
+  max-height: 30vh;
   object-fit: contain;
   overflow: hidden;
   display: block;
