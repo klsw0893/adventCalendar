@@ -46,6 +46,11 @@ function Popup({ content, onClose }) {
         )
         }
         <div className={`${styles.contentText} ${styles.videoLinks}`}>
+          {content.type === "movie" && (content.video.netflixLink || content.video.otherVidLink) && (
+          <div className={styles.filmPic}>
+            <img src={Film} className={styles.filmPic} alt="Film picture" />
+          </div>
+        )}
           {
             content.video.netflixLink && (
               <a href={content.video.netflixLink} className={styles.videoListsBox} target="_blank" rel="noopener noreferrer">
@@ -53,11 +58,6 @@ function Popup({ content, onClose }) {
               </a>
             )
           }
-          {content.type === "movie" && (content.video.netflixLink || content.video.otherVidLink) && (
-          <div className={styles.filmPic}>
-            <img src={Film} className={styles.filmPic} alt="Film picture" />
-          </div>
-        )}
           {
             content.video.otherVidLink && (
               <a href={content.video.otherVidLink} className={styles.videoListsBox} target="_blank" rel="noopener noreferrer">
