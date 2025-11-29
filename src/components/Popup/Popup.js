@@ -37,7 +37,7 @@ function Popup({ content, onClose }) {
         {content.embeddedLink.link && (
           <div className={styles.contentText}>
             <a href={content.embeddedLink.link} target="_blank" rel="noopener noreferrer">
-              <img src={content.embeddedLink.pic} className={styles.musicPic} alt="Embedded link picture" />
+              <img src={process.env.PUBLIC_URL + content.embeddedLink.pic} className={styles.musicPic} alt="Embedded link picture" />
             </a>
           </div>
         )
@@ -46,7 +46,7 @@ function Popup({ content, onClose }) {
           {
             content.video.netflixLink && (
               <a href={content.video.netflixLink} className={styles.videoListsBox} target="_blank" rel="noopener noreferrer">
-                <img src={content.video.netflixPic} className={styles.videoPic} alt="Netflix logo" />
+                <img src={process.env.PUBLIC_URL + content.video.netflixPic} className={styles.videoPic} alt="Netflix logo" />
               </a>
             )
           }
@@ -58,7 +58,7 @@ function Popup({ content, onClose }) {
           {
             content.video.otherVidLink && (
               <a href={content.video.otherVidLink} className={styles.videoListsBox} target="_blank" rel="noopener noreferrer">
-                <img src={content.video.otherVidPic} className={styles.videoPic} alt="Videa logo" />
+                <img src={process.env.PUBLIC_URL + content.video.otherVidPic} className={styles.videoPic} alt="Videa logo" />
               </a>
             )
           }
@@ -66,24 +66,24 @@ function Popup({ content, onClose }) {
         {content.type === "downloadable" && (
           <div className = {styles.videoLinks}>
             <span onClick={handleDesktopDownload} style={{ cursor: "pointer" }}>
-               <img src={content.download.deskPic} className={styles.downloadPic} alt="food" />
+               <img src={process.env.PUBLIC_URL + content.download.deskPic} className={styles.downloadPic} alt="food" />
             </span>
             <span onClick={handleMobilDownload} style={{ cursor: "pointer" }}>
-               <img src={content.download.mobilPic} className={styles.downloadPic} alt="food" />
+               <img src={process.env.PUBLIC_URL + content.download.mobilPic} className={styles.downloadPic} alt="food" />
             </span>
           </div>
         )
         }
         {content.type === "food" && (
           <div className={styles.foodPic}>
-            <img src={content.food} className={styles.foodPic} alt="food" />
+            <img src={process.env.PUBLIC_URL + content.food} className={styles.foodPic} alt="food" />
           </div>
         )
         }
         {content.type === "gif" && content.video.file && (
           <div className={styles.videoWrapper}>
             <video
-              src={content.embeddedLink.pic}
+              src={process.env.PUBLIC_URL + content.embeddedLink.pic}
               autoPlay
               loop                      // ismétlés
               className={styles.videoPlayer}

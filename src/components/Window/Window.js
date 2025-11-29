@@ -14,7 +14,7 @@ function Window({ imgSrc, clickable = true, day, onClick}) {
   return (
     <div className={`${styles.window} ${clickable ? styles.clickable : ''}`}
          onClick={onClickCallback}>
-      <img src={imgSrc} alt="Elem" className={`${styles.image}`} />
+      <img src={process.env.PUBLIC_URL + imgSrc} alt="Elem" className={`${styles.image}`} />
     </div>
   );
 
