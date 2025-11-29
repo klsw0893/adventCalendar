@@ -19,7 +19,7 @@
     "contentText":{"content":"Kezdődjék a hangolódás! Mi mással, mint egy karácsonyi dallal!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"https://www.youtube.com/watch?v=0MF3mS6ywNU", "pic":"/meghallgatom.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=0MF3mS6ywNU", "pic":"/Meghallgatom.png"},
     "download":{"desktop":"", "mobil":"", "deskPic":"", "mobilPic": ""},
 	"embeddedQuiz":""
   },
@@ -28,7 +28,7 @@
     "day":"15",
 	"adventDay": "/15.png",
     "type":"text",
-    "contentText":{"content":"„A világ bármely részén élsz és bárki vagy,\n Szeretném, hogy légy ma este egy kicsit boldogabb,\n Kívánj igazi ünnepet,\n kívánj igazabb életet,\n Ahogyan én neked.”", "author":"(Piramis zenekar)"},
+    "contentText":{"content":"„A világ bármely részén élsz és bárki vagy,\n Szeretném, hogy légy ma este egy kicsit boldogabb,\n Kívánj igazi ünnepet, kívánj igazabb életet,\n Ahogyan én neked.”", "author":"(Piramis zenekar)"},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
     "embeddedLink": {"link":"", "pic":""},
@@ -55,7 +55,7 @@
     "contentText":{"content":"Hallgasd meg a Piramis zenekar Kívánj igazi ünnepet című dalát!", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"https://www.youtube.com/watch?v=pxkxnu4N1p8&list=RDpxkxnu4N1p8&start_radio=1", "pic":"/meghallgatom.png"},
+    "embeddedLink": {"link":"https://www.youtube.com/watch?v=pxkxnu4N1p8&list=RDpxkxnu4N1p8&start_radio=1", "pic":"/Meghallgatom.png"},
     "download":{"desktop":"", "mobil":"", "deskPic":"", "mobilPic": ""},
 	"embeddedQuiz":""
   },
@@ -115,7 +115,7 @@
     "contentText":{"content":"Ha a rádión is csak karácsonyi dalokat hallgatnál:", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink": {"link":"https://christmasfm.hu/", "pic":"/meghallgatom.png"},
+    "embeddedLink": {"link":"https://christmasfm.hu/", "pic":"/Meghallgatom.png"},
     "download":{"desktop":"", "mobil":"", "deskPic":"", "mobilPic": ""},
 	"embeddedQuiz":""
   },
@@ -223,7 +223,7 @@
     "contentText":{"content":"Zengjen a szívedben a Bagossy Brothers Company karácsonyi dala:", "author":""},
     "video":{"netflixLink": "", "otherVidLink":"", "netflixPic":"/netflix.png", "otherVidPic":"/videa.png"},
     "food": "",
-    "embeddedLink":{"link": "https://www.youtube.com/watch?v=6Y4FPNR0TX8&list=RD6Y4FPNR0TX8&start_radio=1", "pic":"/meghallgatom.png"},
+    "embeddedLink":{"link": "https://www.youtube.com/watch?v=6Y4FPNR0TX8&list=RD6Y4FPNR0TX8&start_radio=1", "pic":"/Meghallgatom.png"},
     "download":{"desktop":"", "mobil":"", "deskPic":"", "mobilPic": ""},
 	"embeddedQuiz":""
   },

@@ -39,7 +39,7 @@ a, .videoListsBox {
 /* Videó és film képek */
 .musicPic{
   max-width: 100%;
-  max-height: 35vh;   /* popup magasságának része */
+  max-height: 50vh;   /* popup magasságának része */
   overflow: hidden;
   object-fit: contain;
   margin: 0 auto;
@@ -65,7 +65,7 @@ a, .videoListsBox {
 
 .downloadPic {
   max-width: 100%;
-  max-height: 40vh;   /* kisebb, hogy a film képhez képest fele legyen */
+  max-height: 50vh;   /* kisebb, hogy a film képhez képest fele legyen */
   object-fit: contain;
   overflow: hidden;
   display: block;
@@ -143,6 +143,7 @@ a, .videoListsBox {
   font-family: 'Courier New';
   font-size:1.5rem;
   padding: 1rem;
+  white-space: pre-line;
 }
 .centered p {
   display: block;      /* mindkettő új sorban */
@@ -238,7 +239,7 @@ a, .videoListsBox {
   }
   .downloadPic {
   max-width: 100%;
-  max-height: 20vh;
+  max-height: 40vh;
   object-fit: contain;
   overflow: hidden;
   display: block;

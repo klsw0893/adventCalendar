@@ -24,9 +24,12 @@ function Popup({ content, onClose }) {
     <div className={styles.overlay}>
       <div className={styles.popup}>
         <button className={styles.closeBtn} onClick={onClose}>X</button>
-        {content.contentText.content && (<div className={`${styles.content} ${(content.type === "text") ? styles.centered : ''}`}>
+        {content.contentText.content && content.type === "text" &&(<div className={styles.centered}>
           <p>{content.contentText.content}</p>
           {content.type === "text" && content.contentText.author !== "" && (<p className={styles.author}>{content.contentText.author}</p>)}
+        </div>)}
+        {content.contentText.content && content.type !== "text" &&(<div className={styles.content}>
+          {content.contentText.content}
         </div>)}
         {content.type === "quiz" && (
           <div className={styles.quiz}>
