@@ -4,7 +4,6 @@ import styles from './Window.module.css';
 function Window({ imgSrc, clickable = true, day, onClick}) {
   const now = new Date();
   clickable = (now).getTime() >= new Date(2025, 11, day).getTime();
-  clickable = true;
 
   const onClickCallback = ()=>{
     if (clickable) {
