@@ -4,8 +4,8 @@ import Film from './../../assets/film.png'
 function Popup({ content, onClose }) {
   const handleDesktopDownload = () => {
     const link = document.createElement("a");
-    link.href = content.download.desktop;
-    link.download = process.env.PUBLIC_URL +"desktop.jpg";
+    link.href = process.env.PUBLIC_URL + content.download.desktop;
+    link.download = "desktop.jpg";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -13,8 +13,8 @@ function Popup({ content, onClose }) {
 
   const handleMobilDownload = () => {
     const link = document.createElement("a");
-    link.href = content.download.mobil;
-    link.download = process.env.PUBLIC_URL +"mobil.jpg";
+    link.href = process.env.PUBLIC_URL + content.download.mobil;
+    link.download = "mobil.jpg";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
