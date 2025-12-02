@@ -5,7 +5,7 @@ function Popup({ content, onClose }) {
   const handleDesktopDownload = () => {
     const link = document.createElement("a");
     link.href = content.download.desktop;
-    link.download = "desktop.jpg";
+    link.download = process.env.PUBLIC_URL +"desktop.jpg";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -14,7 +14,7 @@ function Popup({ content, onClose }) {
   const handleMobilDownload = () => {
     const link = document.createElement("a");
     link.href = content.download.mobil;
-    link.download = "mobil.jpg";
+    link.download = process.env.PUBLIC_URL +"mobil.jpg";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
